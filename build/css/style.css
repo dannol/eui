@@ -3,6 +3,12 @@
 Primary style
 
 -------------------------------- */
+button.together-js {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 999; }
+
 *, *::after, *::before {
   box-sizing: border-box; }
 
@@ -319,9 +325,13 @@ Projects
 
 .cd-projects-previews a,
 .cd-projects .preview-image {
-  /* set a background image for each project */
-  background: #5b927d url(../img/img-1.jpg) no-repeat center center;
+  /* set a background image for each project  */
+  background: #5b927d url(../img/steelers-img-1.jpg) no-repeat center center;
   background-size: cover; }
+
+.cd-projects .selected .preview-image {
+  /* set a background image for each project  */
+  background: #5b927d url(../img/steelers-img-1.jpg) no-repeat center center; }
 
 .cd-projects-previews li:nth-of-type(2) a,
 .cd-projects > li:nth-of-type(2) .preview-image {
@@ -388,7 +398,7 @@ Projects
     -moz-transition: -moz-transform 0.3s 0.3s;
     transition: transform 0.3s 0.3s; }
   .cd-project-title h2 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 700; }
   .cd-project-title p {
@@ -498,11 +508,30 @@ li.selected .cd-project-title,
   color: #7d7c7b; }
   .content-visible .cd-project-info {
     display: block; }
-  .cd-project-info p {
+  .cd-project-info h1, .cd-project-info h2, .cd-project-info h3, .cd-project-info h4, .cd-project-info h5, .cd-project-info p, .cd-project-info img {
     width: 90%;
     max-width: 800px;
     margin: 0 auto;
     line-height: 2; }
+  .cd-project-info p {
+    margin-bottom: 15px; }
+  .cd-project-info img {
+    display: block; }
+  .cd-project-info h2 {
+    font-size: 2.4em;
+    line-height: 1.4em;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: black; }
+  .cd-project-info h3 {
+    font-size: 1.8em;
+    line-height: 1.3em;
+    margin-bottom: 15px; }
+  .cd-project-info h4 {
+    font-size: 1.2em;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
 
 .cd-projects-container .scroll {
   display: block;
