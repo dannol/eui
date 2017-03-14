@@ -1066,9 +1066,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
-		"oAP": "\/build\/css\/reset.css",
-		"oF": 3,
+		"oA": 0,
+		"oAP": "\/build\/css\/reset-min.css",
+		"oF": 0,
 		"oS": 0
 		},
 	"\/source\/css\/style.css": {
@@ -1097,7 +1097,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/img-1.jpg",
 		"oF": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/img-2.jpg": {
@@ -1106,7 +1106,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/img-2.jpg",
 		"oF": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/img-3.jpg": {
@@ -1115,7 +1115,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/img-3.jpg",
 		"oF": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/img\/img-4.jpg": {
@@ -1124,7 +1124,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/img-4.jpg",
 		"oF": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/source\/index.html": {
@@ -1135,29 +1135,29 @@
 		},
 	"\/source\/js\/jquery-2.1.1.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
-		"oAP": "\/build\/js\/jquery-2.1.1.js",
-		"oF": 2,
-		"sC": 0,
+		"oAP": "\/build\/js\/jquery-2.1.1-min.js",
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/source\/js\/main.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
-		"oAP": "\/build\/js\/main.js",
-		"oF": 2,
-		"sC": 0,
+		"oAP": "\/build\/js\/main-min.js",
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/source\/js\/modernizr.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
-		"oAP": "\/build\/js\/modernizr.js",
-		"oF": 2,
-		"sC": 0,
+		"oAP": "\/build\/js\/modernizr-min.js",
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/source\/partials\/_layout.scss": {
@@ -1225,8 +1225,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/build\/css\/style.css",
-		"oF": 2,
+		"oAP": "\/build\/scss\/style.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		}
