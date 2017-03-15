@@ -15,6 +15,9 @@ body {
   color: #ffffff;
   background-color: #262423; }
 
+.interests-page .cd-primary-nav.nav-visible {
+  background-color: #262423; }
+
 a {
   color: #a8ae7e;
   text-decoration: none; }
@@ -26,6 +29,38 @@ h3 {
   font-family: "mrs-eaves-xl-serif",serif;
   text-transform: capitalize;
   font-style: italic; }
+
+.cd-project-info.interests h1 {
+  font-family: "mrs-eaves-xl-serif", serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+  text-align: center; }
+
+.photogrid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto; }
+  .photogrid * {
+    padding: 10px;
+    margin: 0 !important; }
+  .photogrid .photo-large {
+    width: 100%; }
+  .photogrid .photo-small {
+    width: 50%; }
+
+.column-wrapper {
+  display: flex;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto; }
+  .column-wrapper * {
+    margin: 20px; }
+  .column-wrapper h1, .column-wrapper h2 {
+    width: 40%; }
+  .column-wrapper p {
+    width: 60%; }
 
 /* --------------------------------
 
@@ -331,10 +366,6 @@ Projects
   background: #5b927d url(../img/steelers-img-1.jpg) no-repeat center center;
   background-size: cover; }
 
-.cd-projects .selected .preview-image {
-  /* set a background image for each project  */
-  background: #5b927d url(../img/steelers-img-1.jpg) no-repeat center center; }
-
 .cd-projects-previews li:nth-of-type(2) a,
 .cd-projects > li:nth-of-type(2) .preview-image {
   background: #a8ae7e url(../img/steelers-img-2.jpg) no-repeat center center;
@@ -533,12 +564,18 @@ li.selected .cd-project-title,
   .cd-project-info h3 {
     font-size: 2em;
     line-height: 1.3em;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    text-transform: inherit; }
   .cd-project-info h4 {
     font-size: 1.2em;
     line-height: 1.3em;
+    font-weight: bolder;
     text-transform: uppercase;
     margin-bottom: 10px; }
+  .cd-project-info .callout {
+    padding: 25px;
+    background: #f2f2f2;
+    margin: 8vw auto; }
 
 .cd-projects-container .scroll {
   display: block;

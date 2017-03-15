@@ -29,6 +29,10 @@ body {
 	background-color: $color-5;
 }
 
+.interests-page .cd-primary-nav.nav-visible {
+	background-color: $color-5;
+}
+
 a {
 	color: $color-2;
 	text-decoration: none;
@@ -42,6 +46,49 @@ h3 {
 	font-family: "mrs-eaves-xl-serif",serif;
 	text-transform: capitalize;
 	font-style: italic;
+}
+
+.cd-project-info.interests {
+	h1 {
+		font-family: $secondary-font;
+		font-size: 4.5rem;
+ 		font-weight: 700;
+		text-align: center;
+	}
+}
+
+.photogrid {
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	max-width: 800px;
+	margin: 0 auto;
+	* {
+		padding: 10px;
+		margin: 0 !important;
+	}
+	.photo-large {
+		width: 100%;
+	}
+	.photo-small {
+		width: 50%;
+	}
+}
+
+.column-wrapper {
+	display: flex;
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+	* {
+		margin: 20px;
+	}
+	h1, h2 {
+		width: 40%;
+	}
+	p {
+		width: 60%;
+	}
 }
 
 /* --------------------------------
@@ -313,11 +360,6 @@ Projects
 	background-size: cover;
 }
 
-.cd-projects .selected .preview-image {
-	/* set a background image for each project  */
-	background: $color-1 url(../img/steelers-img-1.jpg) no-repeat center center;
-}
-
 .cd-projects-previews li:nth-of-type(2) a,
 .cd-projects > li:nth-of-type(2) .preview-image {
 	background: $color-2 url(../img/steelers-img-2.jpg) no-repeat center center;
@@ -481,13 +523,21 @@ li.selected .cd-project-title,
 		font-size: 2em;
 		line-height: 1.3em;
 		margin-bottom: 15px;
+		text-transform: inherit;
 	}
 
 	h4 {
 		font-size: 1.2em;
 		line-height: 1.3em;
+		font-weight: bolder;
 		text-transform: uppercase;
 		margin-bottom: 10px;
+	}
+
+	.callout {
+		padding: 25px;
+		background: #f2f2f2;
+		margin: 8vw auto;
 	}
 
 }
