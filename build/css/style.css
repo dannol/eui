@@ -3,12 +3,6 @@
 Primary style
 
 -------------------------------- */
-button.together-js {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 999; }
-
 *, *::after, *::before {
   box-sizing: border-box; }
 
@@ -16,14 +10,22 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-size: 1.6rem;
-  font-family: "PT Sans", sans-serif;
+  font-size: 1.8rem;
+  font-family: "proxima-nova", sans-serif;
   color: #ffffff;
   background-color: #262423; }
 
 a {
   color: #a8ae7e;
   text-decoration: none; }
+
+h1, h2 {
+  font-family: "din-condensed",sans-serif; }
+
+h3 {
+  font-family: "mrs-eaves-xl-serif",serif;
+  text-transform: capitalize;
+  font-style: italic; }
 
 /* --------------------------------
 
@@ -335,17 +337,17 @@ Projects
 
 .cd-projects-previews li:nth-of-type(2) a,
 .cd-projects > li:nth-of-type(2) .preview-image {
-  background: #a8ae7e url(../img/img-2.jpg) no-repeat center center;
+  background: #a8ae7e url(../img/steelers-img-2.jpg) no-repeat center center;
   background-size: cover; }
 
 .cd-projects-previews li:nth-of-type(3) a,
 .cd-projects > li:nth-of-type(3) .preview-image {
-  background: #e7d5a4 url(../img/img-3.jpg) no-repeat center center;
+  background: #e7d5a4 url(../img/steelers-img-3.jpg) no-repeat center center;
   background-size: cover; }
 
 .cd-projects-previews li:nth-of-type(4) a,
 .cd-projects > li:nth-of-type(4) .preview-image {
-  background: #835531 url(../img/img-4.jpg) no-repeat center center;
+  background: #835531 url(../img/steelers-img-4.jpg) no-repeat center center;
   background-size: cover; }
 
 .cd-project-title {
@@ -398,12 +400,14 @@ Projects
     -moz-transition: -moz-transform 0.3s 0.3s;
     transition: transform 0.3s 0.3s; }
   .cd-project-title h2 {
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 700; }
+    font-family: "din-condensed",sans-serif;
+    font-size: 5.5rem;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase; }
   .cd-project-title p {
-    font-size: 1.4rem;
-    font-family: "Merriweather", serif;
+    font-size: 3rem;
+    font-family: "mrs-eaves-xl-serif", serif;
     font-style: italic;
     line-height: 1.2;
     padding: .4em 2em;
@@ -516,15 +520,18 @@ li.selected .cd-project-title,
   .cd-project-info p {
     margin-bottom: 15px; }
   .cd-project-info img {
-    display: block; }
+    display: block;
+    width: auto;
+    margin: 45px auto; }
   .cd-project-info h2 {
     font-size: 2.4em;
     line-height: 1.4em;
     margin-bottom: 15px;
     font-weight: bold;
-    color: black; }
+    color: #222;
+    text-transform: uppercase; }
   .cd-project-info h3 {
-    font-size: 1.8em;
+    font-size: 2em;
     line-height: 1.3em;
     margin-bottom: 15px; }
   .cd-project-info h4 {
@@ -649,7 +656,7 @@ li.selected .cd-project-title,
     -moz-transition: background 0.2s;
     transition: background 0.2s;
     color: #ffffff;
-    font-family: "Merriweather", serif;
+    font-family: "mrs-eaves-xl-serif", serif;
     font-size: 2.4rem;
     font-weight: 700;
     -webkit-font-smoothing: antialiased;

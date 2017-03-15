@@ -1136,6 +1136,25 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/product-is-goal.png": {
+		"ft": 32768,
+		"iS": 2962,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/build\/img\/product-is-goal.png",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/set-the-vision.jpg": {
+		"ft": 16384,
+		"iS": 65071,
+		"oA": 0,
+		"oAP": "\/build\/img\/set-the-vision.jpg",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/img\/steelers-img-1-full.jpg": {
 		"ft": 16384,
 		"iS": 280858,
@@ -1150,6 +1169,33 @@
 		"iS": 1667947,
 		"oA": 0,
 		"oAP": "\/build\/img\/steelers-img-1.jpg",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/steelers-img-2.jpg": {
+		"ft": 16384,
+		"iS": 50270,
+		"oA": 0,
+		"oAP": "\/build\/img\/steelers-img-2.jpg",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/steelers-img-3.jpg": {
+		"ft": 16384,
+		"iS": 198641,
+		"oA": 0,
+		"oAP": "\/build\/img\/steelers-img-3.jpg",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/steelers-img-4.jpg": {
+		"ft": 16384,
+		"iS": 313442,
+		"oA": 0,
+		"oAP": "\/build\/img\/steelers-img-4.jpg",
 		"oF": 0,
 		"opt": 1,
 		"q": 100
