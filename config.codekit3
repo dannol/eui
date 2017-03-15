@@ -1081,6 +1081,15 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/source\/img\/3d-architecture.jpg": {
+		"ft": 16384,
+		"iS": 278501,
+		"oA": 0,
+		"oAP": "\/build\/img\/3d-architecture.jpg",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/img\/cd-icon-arrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1232,6 +1241,25 @@
 		"iS": 232003,
 		"oA": 0,
 		"oAP": "\/build\/img\/interests-skiingcouple.jpg",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/jersey-creator.jpg": {
+		"ft": 16384,
+		"iS": 280920,
+		"oA": 0,
+		"oAP": "\/build\/img\/jersey-creator.jpg",
+		"oF": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/jersey-select-type.png": {
+		"ft": 32768,
+		"iS": 637174,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/build\/img\/jersey-select-type.png",
 		"oF": 0,
 		"opt": 1,
 		"q": 100
